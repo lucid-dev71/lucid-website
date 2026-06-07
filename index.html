@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lucid D. Dealerman Tech Services - Stay Connected, Stay Protected">
-    <meta name="keywords" content="CCTV, Website Development, Drilling Services, TV Installation, Smartphone Maintenance, Tech Services">
+    <meta name="description" content="Lucid D. Dealerman Tech Services - CCTV, Websites, Drilling, TV & Phone Services in Uganda">
+    <meta name="keywords" content="CCTV Installation Uganda, Website Development, Borehole Drilling, TV Installation, Smartphone Repair">
     <meta name="google-site-verification" content="qnJae3ezpTUZFu1Rr0htZNA6gAJBdkSAFYzRtwFW008">
-    <title>Lucid D. Dealerman Tech Services Inc </title>
+    <title>Lucid D. Dealerman Tech Services | Stay Connected, Stay Protected</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo">LDD</div> <!-- Update to <img src="logo.png" alt="Lucid D. Dealerman" class="logo"> if logo.png is ready (50x50px) -->
+        <img src="logo.png" alt="Lucid D. Dealerman Tech Services" class="logo">
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
@@ -29,33 +29,48 @@
         <section class="gallery">
             <h2 class="fade-in">Our Services</h2>
             <div class="gallery-container">
-                <img src="cctv.jpg" alt="CCTV" class="gallery-img" onclick="openImage('cctv.jpg')">
-                <img src="webdev.jpg" alt="Website Development" class="gallery-img" onclick="openImage('webdev.jpg')">
+                <img src="cctv.jpg" alt="CCTV Installation" class="gallery-img" onclick="openImage('cctv.jpg')">
+                <img src="webdv.jpg" alt="Professional Website Development" class="gallery-img" onclick="openImage('webdv.jpg')">
                 <img src="drilling.jpg" alt="Drilling Services" class="gallery-img" onclick="openImage('drilling.jpg')">
-                <img src="tv-install.jpg" alt="TV Installation" class="gallery-img" onclick="openImage('tv-install.jpg')">
-                <img src="phone-maintenance.jpg" alt="Smartphone Maintenance" class="gallery-img" onclick="openImage('phone-maintenance.jpg')">
+                <img src="tv-install.jpg" alt="Expert TV Installation" class="gallery-img" onclick="openImage('tv-install.jpg')">
+                <img src="phone-maintenance.jpg" alt="Smartphone Update and Maintenance" class="gallery-img" onclick="openImage('phone-maintenance.jpg')">
             </div>
+            
             <div class="video-container">
                 <h3 class="fade-in">Drilling Services in Action</h3>
-                <iframe src="https://www.youtube.com/embed/LLZ4QpDnisM" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/LLZ4QpDnisM" title="Drilling Services Demo" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
 
+        <!-- New Contact Form -->
+        <section class="contact-form">
+            <h2>Get In Touch</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Phone Number">
+                <textarea placeholder="Tell us about your project..." rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+
         <div class="navigation-buttons">
-            <a href="services.html" class="btn">Next: Services</a>
+            <a href="services.html" class="btn">View All Services</a>
         </div>
     </main>
 
     <footer class="footer">
         <div class="contact">
             <h3>Contact Us</h3>
-            <p>Email: lawdluciddavy@gmail.com | Phone: +256-700-842-849</p>
+            <p>Email: <a href="mailto:lawdluciddavy@gmail.com">lawdluciddavy@gmail.com</a><br>
+               Phone: <a href="tel:+256700842849">+256-700-842-849</a></p>
         </div>
         <div class="social-icons">
             <a href="https://twitter.com/luciddavy" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
             <a href="https://instagram.com/mr.luciddavy" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
             <a href="https://wa.me/0700842849" target="_blank"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
         </div>
+        <p>&copy; 2026 Lucid D. Dealerman Tech Services. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
